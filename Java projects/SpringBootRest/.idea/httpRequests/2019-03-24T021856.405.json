@@ -1,0 +1,8 @@
+{
+  "timestamp": 1553383136355,
+  "status": 405,
+  "error": "Method Not Allowed",
+  "exception": "org.springframework.web.HttpRequestMethodNotSupportedException",
+  "message": "Request method 'GET' not supported",
+  "path": "/orders/4/cancel"
+}

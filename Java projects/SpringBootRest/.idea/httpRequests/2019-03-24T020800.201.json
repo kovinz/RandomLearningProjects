@@ -1,0 +1,19 @@
+{
+  "id": 2,
+  "description": "iPhone",
+  "status": "IN_PROGRESS",
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/orders/2"
+    },
+    "orders": {
+      "href": "http://localhost:8080/orders"
+    },
+    "cancel": {
+      "href": "http://localhost:8080/orders/2/cancel"
+    },
+    "complete": {
+      "href": "http://localhost:8080/orders/2/complete"
+    }
+  }
+}

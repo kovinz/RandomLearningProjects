@@ -1,0 +1,8 @@
+{
+  "timestamp": 1553382531616,
+  "status": 400,
+  "error": "Bad Request",
+  "exception": "org.springframework.http.converter.HttpMessageNotReadableException",
+  "message": "JSON parse error: Can not deserialize value of type payroll.Status from String \"_incorrect\": value not one of declared Enum instance names: [CANCELLED, COMPLETED, IN_PROGRESS]; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Can not deserialize value of type payroll.Status from String \"_incorrect\": value not one of declared Enum instance names: [CANCELLED, COMPLETED, IN_PROGRESS]\n at [Source: java.io.PushbackInputStream@2dccda5d; line: 1, column: 43] (through reference chain: payroll.entities.Order[\"status\"])",
+  "path": "/orders"
+}

@@ -1,0 +1,1 @@
+data class Checker(var check: Boolean)

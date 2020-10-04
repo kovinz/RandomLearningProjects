@@ -1,0 +1,13 @@
+{
+  "id": 5,
+  "description": "Laptop",
+  "status": "COMPLETED",
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/orders/5"
+    },
+    "orders": {
+      "href": "http://localhost:8080/orders"
+    }
+  }
+}

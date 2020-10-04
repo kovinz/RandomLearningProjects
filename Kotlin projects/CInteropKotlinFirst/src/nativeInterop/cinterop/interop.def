@@ -1,0 +1,36 @@
+---
+
+void ints(char c, short d, int e, long f) { }
+void uints(unsigned char c, unsigned short d, unsigned int e, unsigned long f) { }
+void doubles(float a, double b) { }
+
+typedef struct {
+  int a;
+  double b;
+} MyStruct;
+
+void struct_by_value(MyStruct s) {}
+void struct_by_pointer(MyStruct* s) {}
+
+typedef union {
+  int a;
+  MyStruct b;
+  float c;
+} MyUnion;
+
+void union_by_value(MyUnion u) {}
+void union_by_pointer(MyUnion* u) {}
+
+int myFun(int i) {
+  return i+1;
+}
+
+typedef int  (*MyFun)(int);
+
+void accept_fun(MyFun f) {
+  f(50);
+}
+
+MyFun supply_fun() {
+  return myFun;
+}

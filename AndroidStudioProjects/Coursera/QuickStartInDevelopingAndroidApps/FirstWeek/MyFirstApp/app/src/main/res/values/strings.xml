@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="hello_android">Hello Android from RES!</string>
+    <string name="click">Click</string>
+    <string name="new_text">This text is new!</string>
+    <string name="button_was_clicked">Button was clicked!</string>
+</resources>

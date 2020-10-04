@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "description": "TV",
+  "status": "CANCELLED",
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/orders/4"
+    },
+    "orders": {
+      "href": "http://localhost:8080/orders"
+    }
+  }
+}

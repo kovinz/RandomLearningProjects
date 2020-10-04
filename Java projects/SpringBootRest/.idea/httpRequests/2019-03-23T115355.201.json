@@ -1,0 +1,15 @@
+{
+  "id": 3,
+  "firstName": "Samwise",
+  "lastName": "Gamgee",
+  "role": "gardener",
+  "name": "Samwise Gamgee",
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/employees/3"
+    },
+    "employees": {
+      "href": "http://localhost:8080/employees"
+    }
+  }
+}

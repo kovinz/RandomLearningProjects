@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "description": "MacBook Pro",
+  "status": "IN_PROGRESS",
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/orders/1"
+    },
+    "orders": {
+      "href": "http://localhost:8080/orders"
+    },
+    "cancel": {
+      "href": "http://localhost:8080/orders/1/cancel"
+    },
+    "complete": {
+      "href": "http://localhost:8080/orders/1/complete"
+    }
+  }
+}

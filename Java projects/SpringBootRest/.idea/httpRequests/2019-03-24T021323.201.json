@@ -1,0 +1,19 @@
+{
+  "id": 4,
+  "description": "TV",
+  "status": "IN_PROGRESS",
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/orders/4"
+    },
+    "orders": {
+      "href": "http://localhost:8080/orders"
+    },
+    "cancel": {
+      "href": "http://localhost:8080/orders/4/cancel"
+    },
+    "complete": {
+      "href": "http://localhost:8080/orders/4/complete"
+    }
+  }
+}

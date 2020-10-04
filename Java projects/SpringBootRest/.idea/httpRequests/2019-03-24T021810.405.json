@@ -1,0 +1,4 @@
+{
+  "logref": "Method not allowed",
+  "message": "You can't cancel an order that is in the COMPLETED status"
+}

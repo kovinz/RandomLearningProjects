@@ -1,0 +1,8 @@
+{
+  "timestamp": 1553373333074,
+  "status": 500,
+  "error": "Internal Server Error",
+  "exception": "org.springframework.dao.InvalidDataAccessApiUsageException",
+  "message": "No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call; nested exception is javax.persistence.TransactionRequiredException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call",
+  "path": "/employees/3"
+}

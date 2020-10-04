@@ -1,0 +1,39 @@
+spring:
+  data:
+    rest:
+      base-path: /api
+
+  rabbitmq:
+    template:
+      exchange: tacocloud.orders
+      routing-key: kitchens.central
+
+  jms:
+    template:
+      default-destination: tacocloud.order.queue
+
+  kafka:
+    template:
+      default-topic: tacocloud.orders.topic
+
+tacocloud:
+  email:
+    host: imap.tacocloud.com
+    mailbox: INBOX
+    username: taco-in-flow
+    password: 1L0v3T4c0s
+    poll-rate: 10000
+  api:
+    url: http://api.tacocloud.com
+---
+spring:
+  profiles: prod
+
+  datasource:
+    url: jdbc:mysql://localhost/tacocloud
+    username: tacouser
+    password: tacopassword
+
+logging:
+  level:
+    tacos: WARN
